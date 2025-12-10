@@ -46,7 +46,7 @@ Tecnologías utilizadas:
 
 
 5. Desde el cmd Navega al directorio `backend/` del proyecto y ejecuta lo siguiente:
-npm install 
-npx prisma migrate deploy 
-npm run dev
+    5.1. npm install 
+    5.2. npx prisma migrate deploy 
+    5.3. npm run dev
 
