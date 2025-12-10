@@ -10,7 +10,7 @@ Tecnologías utilizadas:
 -- Requerimientos para ejecutar el proyecto --
 ----------------------------------------------
 
-1. Verificar que se disponga de MariaDB
+1. Verificar que se disponga de MariaDB (Versión utilizada para este proyecto 10.11.15)
 
 
 2. Crear la base de datos, se adjunta script para MARIADB:
