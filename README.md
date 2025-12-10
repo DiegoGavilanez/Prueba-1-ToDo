@@ -15,19 +15,12 @@ Tecnologías utilizadas:
 
 2. Crear la base de datos, se adjunta script para MARIADB:
 
-    -- 1. CREACIÓN Y USO DE LA BASE DE DATOS
-    -- ----------------------------
     CREATE DATABASE IF NOT EXISTS `todo_app` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
     USE `todo_app`;
-    -- ----------------------------
-
 
     SET NAMES utf8mb4;
     SET FOREIGN_KEY_CHECKS = 0;
 
-    -- ----------------------------
-    -- Table structure for tasks
-    -- ----------------------------
     DROP TABLE IF EXISTS `tasks`;
     CREATE TABLE `tasks`  (
     `id` int(11) NOT NULL AUTO_INCREMENT,
